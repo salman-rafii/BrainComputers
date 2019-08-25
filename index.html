@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scrollreveal/dist/scrollreveal.min.js"></script>
+    <title>Brain Computers</title>
+</head>
+<body>
+
+    <!-- #################### NAVBAR STARTS ########################## -->
+    <nav class="navbar fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"> <img src="img/main.png" width="30px" height="30px" alt=""> <span style="color:#fff;">    BRAIN COMPUTERS</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav navbar-right ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link custom"  href="#showcase">Home <span class="sr-only">(current)</span></a>
+                </li>
+                
+                <li class="nav-item">
+                  <a style="color:#fff;"  class="nav-link custom" href="#testimonial">About</a>
+                </li>
+                <li class="nav-item">
+                  <a style="color:#fff;" class="nav-link disabled custom" href="#contact">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <!-- ###################### NAVBAR ENDS ########################### -->
+
+      <!-- body -->
+      <section id="showcase">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="showcase-left">
+
+                        <img src="img/main.png" height="400px" width="600px" alt="">
+
+                    </div>
+
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+
+                    <div class="showcase-right">
+                        <h2 style="font-weight:bolder;">Welcome to Brain Computers</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aspernatur soluta, eum hic nam totam, enim, rem harum consequatur laudantium quasi exercitationem illo? Sint rem, explicabo magni impedit aliquam consequatur!</p>
+                    
+                    </div>
+                    <a href=""  class="btn btn-success showcase-btn">Read More</a>
+                      
+
+                    </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- testimonial -->
+<section id="testimonial">
+    <div class="container">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id quaerat sequi qui quisquam deleniti, officiis autem explicabo, corrupti cupiditate vitae iusto ullam saepe dolores placeat rem! Optio placeat et accusantium?</p>
+        <p class="customer">- Salman Rafi</p>
+    </div>
+</section>
+<section id="info1">
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-6">
+            <div class="info-left">
+                <img src="img/brain22.png" width="300px" height="300px" alt="">
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="info-right">
+                <h2>Get to Know Google Home </h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos hic nam consequuntur rerum quia maxime. Quisquam cumque temporibus, nisi commodi saepe iste. Quaerat quas quia omnis, autem non doloribus aperiam.</p>
+                <br>
+                <a href="#" class="btn btn-success btn-lg">Read More</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+<section id="info2">
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-6">
+                <div class="info-left">
+                        <h2>Info Block One </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos hic nam consequuntur rerum quia maxime. Quisquam cumque temporibus, nisi commodi saepe iste. Quaerat quas quia omnis, autem non doloribus aperiam.</p>
+                        
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="info-right">
+                    <h2>Info Block Two </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos hic nam consequuntur rerum quia maxime. Quisquam cumque temporibus, nisi commodi saepe iste. Quaerat quas quia omnis, autem non doloribus aperiam.</p>
+                    <br>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-5">
+                    <form action="">
+                        <div class="form-group">
+                        <label for="name" style="color:#fff; font-weight:bolder;">Name:</label>
+                        <input type="text" class="form-control" placeholder="Enter Name....">
+                        </div>
+                        <div class="form-group">
+                                <label for="email" style="color:white; font-weight:bolder;">Email:</label>
+                                <input type="text" placeholder="Enter Email...." class="form-control">
+                            </div>
+                            <div class="form-group">
+                                    <label for="name" style="color:#fff; font-weight:bolder;">Message:</label>
+                                    <textarea class="form-control" name="" placeholder="Enter Message" id="" cols="30" rows="10"></textarea>
+                            </div>
+
+                            <button class="btn btn-success">Submit</button>
+                        </form>
+                </div>
+                <div class="col-md-7 col-sm-7">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="text-center">Copyrights &copy; 2019</p>
+    </footer>
+    <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.navbar',{
+        duration:3000,
+        origin:'bottom'
+    });
+    window.sr = ScrollReveal();
+    sr.reveal('.showcase-left',{
+        duration:2000,
+        origin:'top',
+        distance:'300px'
+    });
+    window.sr = ScrollReveal();
+    sr.reveal('.showcase-right',{
+        duration:3000,
+        origin:'right',
+        distance:'300px'
+
+    });
+    window.sr = ScrollReveal();
+    sr.reveal('.showcase-btn',{
+        duration:3000,
+        origin:'bottom',
+      
+        delay:2000
+
+    });
+
+    window.sr = ScrollReveal();
+    sr.reveal('#testimonial div',{
+        duration:2000,
+        origin:'bottom',
+        
+
+    });
+    window.sr = ScrollReveal();
+    sr.reveal('.info-left',{
+        duration:3000,
+        origin:'left',
+        distance:'300px',
+        viewFactor:0.2
+
+    });
+    window.sr = ScrollReveal();
+    sr.reveal('.info-right',{
+        duration:3000,
+        origin:'right',
+        distance:'300px',
+        viewFactor:0.2
+
+    });
+
+    </script>
+
+    <script>
+    $(function()
+    {
+        $('a[href*="#"]:not([href=="#"])'.click(function()
+        {
+            if(location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && 
+            location.hostname == this.hostname )
+            {
+                var target = $(this.hash);
+                target = target.length?target:$('[name =]'+ this.hash.slice(1)+']');
+                if(target.length)
+                {
+                    $('html,body').animate({
+                        scrollTop:target.offset().top
+                    },1000
+                    );
+                    return false;
+                }
+            }
+        }));
+    });
+    </script>
+</body>
+</html>

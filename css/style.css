@@ -1,0 +1,77 @@
+body{
+    margin-top:70px;
+    font-size: 16px;
+}
+.custom{
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.custom:hover{
+     border-bottom: 2px solid #fff;
+    
+   
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Poppins;
+
+}
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.navbar-default{
+    background:#fff;
+    border:0;
+    font-family:Poppins;
+}
+.navbar-brand{
+    font-size: 20px;
+    color:#000 !important;
+    font-weight:bold;
+}
+
+#showcase h1{
+    font-size:50px;
+    margin-bottom:20px;
+
+}
+#showcase .showcase-right{
+    margin-top:90px;
+}
+
+#testimonial {
+    background:#f1f1f1;
+    padding:50px 0 30px 0;
+    text-align:center;
+    margin-top:40px;
+}
+
+#testimonial p{
+    font-size:32px;
+    font-family:Josefin Sans;
+    color: #000;
+}
+#testimonial p.customer{
+    font-size:20px;
+    color:#666;
+
+}
+
+#info1 .info-right{
+    margin-top:40px;
+
+}
+#info2{
+    margin:20px 0 60px 0;
+
+}
+#contact{
+    background: url("../img/key3.jpg");
+    padding: 40px;
+    color: #fff;
+    border-top:#333 7px solid;
+    border-bottom:#333 7px solid;
+}
+footer{
+    padding: 30px;
+}
